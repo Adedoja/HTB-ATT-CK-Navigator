@@ -3,31 +3,6 @@
 A threat intelligence reference built from two years of HackTheBox research. Every offensive technique applied across 31 compromised machines has been mapped to the MITRE ATT&CK framework and documented from both the attacker and defender perspective.
 
 ---
-
-## What this is
-
-Most CTF writeups stop at "here's how I got root." This project goes further — mapping each technique to ATT&CK, then asking: *what would a SOC analyst see in the logs?*
-
-The goal is a reusable reference that bridges offensive security work to real-world detection engineering.
-
----
-
-## Repository Structure
-
-```
-htb-mitre-attack-mapping/
-├── README.md               # This file
-├── navigator-layer.json    # ATT&CK Navigator layer — drop into navigator to view heatmap
-├── mapping.md              # Full technique table across all 31 machines
-└── techniques/             # One file per major technique: TTPs + detection notes
-    ├── T1190-exploit-public-facing-app.md
-    ├── T1548-abuse-elevation-control.md
-    ├── T1110-brute-force.md
-    └── ...
-```
-
----
-
 ## Navigator Heatmap
 
 Load `navigator-layer.json` at [mitre-attack.github.io/attack-navigator](https://mitre-attack.github.io/attack-navigator/) to explore the full interactive heatmap.
@@ -87,6 +62,6 @@ Scoring: Technique frequency across 31 machines (1 = rare, 5 = nearly every mach
 
 Aayatullah Adeyemi — CS Senior at University of North Florida, focused on cybersecurity and defensive security engineering.
 
-- [Portfolio](your-portfolio-link-here)
+- [Portfolio](https://adedoja.github.io)
 - [LinkedIn](https://www.linkedin.com/in/aayatullahadeyemi/)
 - [Email](mailto:adeyemiaayatullah@gmail.com)
